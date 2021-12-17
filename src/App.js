@@ -6,7 +6,7 @@ export default function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} exact />
+                <Route path="/" element={<Home />} />
                 <Route path="/new-song" element={<NewSong />} exact />
             </Routes>
         </Router>
