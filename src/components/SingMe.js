@@ -15,7 +15,6 @@ export default function SingMe() {
             'https://singmeasongsong.herokuapp.com/recommendations/random'
         );
         promise.then((response) => {
-            console.log(response.data);
             setSong(response.data);
         });
     }
