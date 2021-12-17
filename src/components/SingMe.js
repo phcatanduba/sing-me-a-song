@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react/cjs/react.development';
 
 export default function SingMe() {
-    const [song, setSong] = useState({});
+    const [song, setSong] = useState();
 
     function getSong() {
         const promise = axios.get(
