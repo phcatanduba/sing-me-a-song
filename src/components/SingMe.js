@@ -1,14 +1,9 @@
 import styled from 'styled-components';
 import axios from 'axios';
 import { useState } from 'react/cjs/react.development';
-import { useEffect } from 'react';
 
 export default function SingMe() {
     const [song, setSong] = useState({});
-
-    useEffect(() => {
-        setSong({});
-    }, []);
 
     function getSong() {
         const promise = axios.get(
