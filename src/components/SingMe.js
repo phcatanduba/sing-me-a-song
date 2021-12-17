@@ -32,7 +32,7 @@ export default function SingMe() {
         <>
             <iframe
                 width="100%"
-                height="400"
+                height="420"
                 src={
                     'https://www.youtube.com/embed/' +
                     youtubeParser(song.youtubeLink)
